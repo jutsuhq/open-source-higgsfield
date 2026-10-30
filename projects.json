@@ -760,6 +760,13 @@
       "category": "studios",
       "summary": "AI agent inside ComfyUI: describe the result and it picks or builds the workflow, runs it and puts the output on your canvas; any LLM, fully local with Ollama, plus a built-in image, video and 3D viewer, Atlas worlds and Gaussian splats.",
       "post": "https://youtu.be/4vtsBWx3Q9k"
+    },
+    {
+      "repo": "parametricparadigm/ComfyUI_Parametric_Studio",
+      "name": "Parametric Studio",
+      "category": "studios",
+      "summary": "Local studio on ComfyUI spanning 82 open model families: guided forms, recipes and a crew of AI specialists, with the real graph behind every render shown in 3D.",
+      "post": "https://www.reddit.com/r/comfyui/comments/1xjg4vk/parametric_studio_every_open_model_one_studio/"
     }
   ]
 }
