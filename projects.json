@@ -139,13 +139,6 @@
       "post": "https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/"
     },
     {
-      "repo": "lvsas/ComfyUI-OpenJutsu-Capsules",
-      "name": "OpenJutsu Capsules",
-      "category": "character-swap",
-      "summary": "Custom nodes that save, move and restore a generated H3 take through the Comfy SDK.",
-      "post": null
-    },
-    {
       "repo": "lvsas/OpenJutsuStudio",
       "name": "Open Jutsu Studio",
       "category": "character-swap",
