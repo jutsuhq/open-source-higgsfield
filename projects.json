@@ -132,6 +132,13 @@
       "post": null
     },
     {
+      "repo": "Bambushu/h3-recast",
+      "name": "H3 Recast",
+      "category": "character-swap",
+      "summary": "Swaps up to three people in an existing clip in one pass with MiniMax H3 and a BFS LoRA, keeping the motion, set and audio; optional FaceRefine lip pass, 16 GB VRAM and 64 GB RAM.",
+      "post": "https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/"
+    },
+    {
       "repo": "lvsas/ComfyUI-OpenJutsu-Capsules",
       "name": "OpenJutsu Capsules",
       "category": "character-swap",
