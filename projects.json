@@ -725,6 +725,13 @@
       "category": "beyond",
       "summary": "Local character swap for Windows and Linux on Wan 2.2 Animate through ComfyUI. Made by the maintainers of this list.",
       "post": null
-    }
+    },
+    {
+      "repo": "szprivate/agentY",
+      "name": "agentY",
+      "category": "studios",
+      "summary": "AI agent inside ComfyUI: describe the result and it picks or builds the workflow, runs it and puts the output on your canvas; any LLM, fully local with Ollama, plus a built-in image, video and 3D viewer, Atlas worlds and Gaussian splats.",
+      "post": "https://youtu.be/4vtsBWx3Q9k"
+    }    
   ]
 }
