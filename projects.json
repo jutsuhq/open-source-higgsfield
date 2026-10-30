@@ -1,0 +1,723 @@
+{
+  "categories": [
+    {
+      "id": "character-swap",
+      "title": "Character swap (Openjutsu)",
+      "intro": "Open-source takes on Higgsfield Genjutsu: replace the person in a video with a character from one image and keep the camera, motion and sound."
+    },
+    {
+      "id": "studios",
+      "title": "All-in-one studios",
+      "intro": "Higgsfield-style apps with many tools behind one screen: effects, camera moves, characters and editing, on your own GPU or Comfy Cloud."
+    },
+    {
+      "id": "effects",
+      "title": "Effects and VFX",
+      "intro": "One-tap viral effects and plate-preserving VFX, the open version of Higgsfield presets."
+    },
+    {
+      "id": "camera",
+      "title": "Camera, reshoot and previs",
+      "intro": "Re-shoot a clip from a new angle, plan camera moves in 3D, or check that a render followed the move."
+    },
+    {
+      "id": "film",
+      "title": "Films, music videos and stories",
+      "intro": "From a logline, a song or a document to a finished video."
+    },
+    {
+      "id": "ads",
+      "title": "Ads and UGC",
+      "intro": "Product ads, UGC-style clips and personalized spots."
+    },
+    {
+      "id": "characters",
+      "title": "Characters and datasets",
+      "intro": "Lock a character look, build LoRA datasets, keep identities consistent."
+    },
+    {
+      "id": "canvas",
+      "title": "Canvases, front ends and tools",
+      "intro": "Node canvases, web UIs and helpers that put a friendlier face on ComfyUI."
+    },
+    {
+      "id": "beyond",
+      "title": "Beyond the challenge",
+      "intro": "Older open-source Higgsfield alternatives on GitHub, most of them cloud front ends that need someone's API key."
+    }
+  ],
+  "projects": [
+    {
+      "repo": "D3voz/openjutsu",
+      "name": "OPENjutsu",
+      "category": "character-swap",
+      "summary": "The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place.",
+      "post": "https://x.com/Devozikjr/status/2115078855321141502"
+    },
+    {
+      "repo": "Comfy-Org/comfy-openjutsu",
+      "name": "comfy-openjutsu",
+      "category": "character-swap",
+      "summary": "Official clonable character-swap app and development guide from Comfy: upload a clip and a character image, get a 5 to 15 second part back with the character in it.",
+      "post": null
+    },
+    {
+      "repo": "jutsuhq/swapjutsu-seedance-character-swap",
+      "name": "Swapjutsu",
+      "category": "character-swap",
+      "summary": "Free Mac app that swaps a character into any video: prepares the clip on the Mac with Vision, Core ML and MLX, then renders on Seedance 2.5 through Comfy or on your own ComfyUI with Wan 2.2 Animate.",
+      "post": "https://x.com/itsnex1s/status/2112238675396354545"
+    },
+    {
+      "repo": "lucataco/open-source-higgsfield",
+      "name": "Body Double",
+      "category": "character-swap",
+      "summary": "Same take, new cast: swaps the actors in a clip with open-weights models only.",
+      "post": "https://x.com/lucataco/status/2116050693601558608"
+    },
+    {
+      "repo": "SydFloyd/openjutsu",
+      "name": "openjutsu (SydFloyd)",
+      "category": "character-swap",
+      "summary": "Genjutsu alternative on ComfyUI with open-weights models only.",
+      "post": null
+    },
+    {
+      "repo": "fetchloom/OpenJutsu",
+      "name": "OpenJutsu (fetchloom)",
+      "category": "character-swap",
+      "summary": "Web-based video-to-video studio inspired by Genjutsu, self-hostable, with motion transfer.",
+      "post": null
+    },
+    {
+      "repo": "Ex8-ca/openjutsu",
+      "name": "openjutsu (Ex8-ca)",
+      "category": "character-swap",
+      "summary": "Genjutsu Motion Transfer alternative running MiniMax H3 locally.",
+      "post": null
+    },
+    {
+      "repo": "demoncase/kagami",
+      "name": "Kagami",
+      "category": "character-swap",
+      "summary": "Open-source version of Higgsfield Genjutsu.",
+      "post": "https://x.com/demoncase/status/2114914686663598506"
+    },
+    {
+      "repo": "LLannnn/OSHCharacterStudio",
+      "name": "OSH Character Studio",
+      "category": "character-swap",
+      "summary": "ComfyUI replacement for Genjutsu character work.",
+      "post": null
+    },
+    {
+      "repo": "regiellis/utsushi",
+      "name": "Utsushi",
+      "category": "character-swap",
+      "summary": "Video studio for your own ComfyUI, written in Go: motion transfer, object swap and style.",
+      "post": null
+    },
+    {
+      "repo": "SvetimFM/openjutsu-cat",
+      "name": "openjutsu-cat",
+      "category": "character-swap",
+      "summary": "Openjutsu-style motion transfer driven by depth performances from a Kinect or any video.",
+      "post": null
+    },
+    {
+      "repo": "D3voz/comfyui-h3-oneclick-swap",
+      "name": "ComfyUI H3 one-click swap",
+      "category": "character-swap",
+      "summary": "ComfyUI nodes for MiniMax H3 character and object swaps with tracked-person matching.",
+      "post": null
+    },
+    {
+      "repo": "lvsas/ComfyUI-OpenJutsu-Capsules",
+      "name": "OpenJutsu Capsules",
+      "category": "character-swap",
+      "summary": "Custom nodes that save, move and restore a generated H3 take through the Comfy SDK.",
+      "post": null
+    },
+    {
+      "repo": "wexloops/openfield",
+      "name": "OpenField",
+      "category": "studios",
+      "summary": "Studio for video, stills and 3D on your own GPU: every app is a ComfyUI workflow with a screen on top, open weights only.",
+      "post": "https://x.com/strangelooptv/status/2115577068541125062"
+    },
+    {
+      "repo": "thePloggy/CreatorOS-Studio",
+      "name": "CreatorOS Studio",
+      "category": "studios",
+      "summary": "Self-hosted studio for one recurring character, from a one-line brief to a finished reel: camera moves, effects, talking avatars, motion transfer and a video editor.",
+      "post": null
+    },
+    {
+      "repo": "rk0neki/OpenKatana",
+      "name": "OpenKatana",
+      "category": "studios",
+      "summary": "Agent-driven video editing with a studio UI, ComfyUI Apps, a CLI and an MCP server.",
+      "post": "https://x.com/rk0neki/status/2113466389545841002"
+    },
+    {
+      "repo": "kevin9327/OpenSourceHiggsfield",
+      "name": "OpenSourceHiggsfield",
+      "category": "studios",
+      "summary": "Three-in-one cinema and video studio on open weights.",
+      "post": null
+    },
+    {
+      "repo": "Arfolomew/backlot",
+      "name": "Backlot",
+      "category": "studios",
+      "summary": "Open-source Higgsfield that runs on a 16 GB card with local open-weights video.",
+      "post": "https://x.com/Arfolomew/status/2112257381589491971"
+    },
+    {
+      "repo": "synthetic-ape/comfield",
+      "name": "Comfield",
+      "category": "studios",
+      "summary": "Higgsfield-style creative studio for AI images and video on ComfyUI.",
+      "post": "https://x.com/synthetic_ape/status/2111116405890330982"
+    },
+    {
+      "repo": "RahmelJackson/frameforge-studio",
+      "name": "FrameForge Studio",
+      "category": "studios",
+      "summary": "Creative studio inspired by Higgsfield, powered by ComfyUI workflows.",
+      "post": "https://x.com/Rahmeljackson/status/2114708845754782072"
+    },
+    {
+      "repo": "sintetizacom/easycomfee",
+      "name": "EasyComfee",
+      "category": "studios",
+      "summary": "Higgsfield-style studio on ComfyUI: image, video and LTX VFX.",
+      "post": "https://x.com/sintetizacom/status/2115884037902393594"
+    },
+    {
+      "repo": "NeoMarcoPolo/marcostudio",
+      "name": "MarcoStudio",
+      "category": "studios",
+      "summary": "13 image and video tools on your own ComfyUI with open-weights models.",
+      "post": null
+    },
+    {
+      "repo": "rossaai/rosesfield",
+      "name": "Rosesfield",
+      "category": "studios",
+      "summary": "Open-source Higgsfield alternative on ComfyUI with 25+ apps for image and video.",
+      "post": null
+    },
+    {
+      "repo": "codyclack/opensfield",
+      "name": "Opensfield",
+      "category": "studios",
+      "summary": "Higgsfield rebuilt on ComfyUI: 146 tools in one app.",
+      "post": null
+    },
+    {
+      "repo": "MajoorWaldi/HyperKut-Studio",
+      "name": "HyperKut Studio",
+      "category": "studios",
+      "summary": "Local ComfyUI video studio for creating, remixing and editing video.",
+      "post": null
+    },
+    {
+      "repo": "dougliell/Cheapsfield",
+      "name": "Cheapsfield",
+      "category": "studios",
+      "summary": "Fully local, open-weights creative studio for Windows with Higgsfield-style apps.",
+      "post": null
+    },
+    {
+      "repo": "Jubzh-29/montagio",
+      "name": "Montagio",
+      "category": "studios",
+      "summary": "Viral video effects and camera moves as an open-source Higgsfield alternative.",
+      "post": null
+    },
+    {
+      "repo": "baney75/hildegard",
+      "name": "Hildegard",
+      "category": "studios",
+      "summary": "AI studio on your own GPU: video, voice, characters and 3D.",
+      "post": null
+    },
+    {
+      "repo": "norioversoul/susano",
+      "name": "Susano",
+      "category": "studios",
+      "summary": "Open-weights studio on ComfyUI with Openjutsu, Tsukuyomi, Cinematic and Influencer apps.",
+      "post": null
+    },
+    {
+      "repo": "GETHUK-BIGEMPEROR/OpenIllusion",
+      "name": "OpenIllusion",
+      "category": "studios",
+      "summary": "Turns ComfyUI workflows into one-click templates: pick one, drop in a photo, clip or sound, press Run.",
+      "post": "https://x.com/tzu_crypto/status/2115801099768832392"
+    },
+    {
+      "repo": "leonardofrito/Directors-Cut",
+      "name": "Director's Cut",
+      "category": "studios",
+      "summary": "Local asset library and reference-to-video studio for ComfyUI.",
+      "post": "https://x.com/oLeonardoFrito/status/2114819677386088802"
+    },
+    {
+      "repo": "designn2future/hoodsfield-ai",
+      "name": "Hoodsfield AI",
+      "category": "studios",
+      "summary": "Local-first AI film studio on ComfyUI: idea in, finished video out.",
+      "post": "https://x.com/Official_Marc_H/status/2115931696319098891"
+    },
+    {
+      "repo": "IBFolding/haggs",
+      "name": "Haggs",
+      "category": "studios",
+      "summary": "Film studio on Comfy from script to screen, with every shot and its price in view.",
+      "post": null
+    },
+    {
+      "repo": "E5EnclaveInc/liberty-cut",
+      "name": "Liberty Cut",
+      "category": "studios",
+      "summary": "Cinematic studio built only on open weights (LTX-Video).",
+      "post": null
+    },
+    {
+      "repo": "stellartune-studio/vision-orchestrator",
+      "name": "Vision Orchestrator",
+      "category": "studios",
+      "summary": "Chat with an LLM as the director while it grows a production blueprint: story, characters, materials, shots.",
+      "post": "https://x.com/StellartuneCore/status/2116083086421319846"
+    },
+    {
+      "repo": "MachineLearningAmateur/cinestudio",
+      "name": "CineStudio",
+      "category": "studios",
+      "summary": "Scene control for renders made with LTX 2.5 on ComfyUI.",
+      "post": "https://x.com/matongzhan/status/2116050590874861729"
+    },
+    {
+      "repo": "Niutonian/Comfyui_Darius_OS",
+      "name": "Darius",
+      "category": "studios",
+      "summary": "ComfyUI workspace with a hosted interactive demo.",
+      "post": "https://x.com/niutonian/status/2115458064937578621"
+    },
+    {
+      "repo": "PhatStraw/freefield",
+      "name": "FreeField",
+      "category": "effects",
+      "summary": "Higgsfield-style viral effects as ComfyUI workflows: one photo in, one shareable clip out.",
+      "post": "https://x.com/droppedmyza/status/2113669761762726058"
+    },
+    {
+      "repo": "Orazen/conjure",
+      "name": "Conjure",
+      "category": "effects",
+      "summary": "One photo, one tap, a whole VFX shot: gold statue, inflate, disintegrate, earth zoom-out on FLUX and LTX.",
+      "post": "https://x.com/sudotarunai/status/2114782959060595110"
+    },
+    {
+      "repo": "Kainotomic/one-take-vfx",
+      "name": "One-take VFX",
+      "category": "effects",
+      "summary": "Add disintegrate, levitate, fire, portal or time-freeze to a phone clip with LTX 2.5.",
+      "post": "https://x.com/apple_techie/status/2115988400557981807"
+    },
+    {
+      "repo": "chinesepowered/hack-comfy",
+      "name": "LiDAR Lab",
+      "category": "effects",
+      "summary": "LiDAR scan, clones, vanish and bullet-time effects that run on a laptop CPU.",
+      "post": "https://x.com/ChinesePowered/status/2115643778866483208"
+    },
+    {
+      "repo": "marciano71/forkfield",
+      "name": "Forkfield",
+      "category": "effects",
+      "summary": "Fork any video: Higgsfield-style effects where every clip keeps its recipe.",
+      "post": null
+    },
+    {
+      "repo": "audriu/fxjutsu",
+      "name": "FXjutsu",
+      "category": "effects",
+      "summary": "Higgsfield-style VFX presets on your own footage with LTX-2.5.",
+      "post": null
+    },
+    {
+      "repo": "TusharTechs/platelock",
+      "name": "PlateLock",
+      "category": "effects",
+      "summary": "Plate-preserving generative VFX: add the effect, keep the original shot.",
+      "post": null
+    },
+    {
+      "repo": "jdnichollsc/seam",
+      "name": "Seam",
+      "category": "effects",
+      "summary": "Two shots in, one AI transition out: smoke, water and more.",
+      "post": "https://x.com/jdnichollsc/status/2116019265275150774"
+    },
+    {
+      "repo": "Burgstall-labs/ComfyUI-SpEdE",
+      "name": "SpEdE",
+      "category": "effects",
+      "summary": "Click an object in a Gaussian splat, then remove, replace or restyle it.",
+      "post": "https://x.com/TheBurgstall/status/2115895644426834025"
+    },
+    {
+      "repo": "Tekholms-LW/ReAngle",
+      "name": "ReAngle",
+      "category": "camera",
+      "summary": "Re-shoot any video from a new camera angle with ComfyUI and LTX-2.5.",
+      "post": null
+    },
+    {
+      "repo": "pyoonpyoon/open-higgsfield",
+      "name": "Open Higgsfield Reshoot",
+      "category": "camera",
+      "summary": "A 3D virtual film set that re-shoots any photo from a new angle.",
+      "post": null
+    },
+    {
+      "repo": "ylchen333/comfy-dial",
+      "name": "Comfy Dial",
+      "category": "camera",
+      "summary": "Draw a camera move in 3D; it renders takes, measures the camera each one used and regenerates only the part that drifted.",
+      "post": null
+    },
+    {
+      "repo": "bolttmade/shot-director",
+      "name": "Shot Director",
+      "category": "camera",
+      "summary": "Free previs, then one real render: a camera-move studio for Comfy.",
+      "post": null
+    },
+    {
+      "repo": "MVOlekhno/previz2shot",
+      "name": "previz2shot",
+      "category": "camera",
+      "summary": "Blender grey playblast to a finished shot with FLUX.2 Klein and LTX-2.5.",
+      "post": "https://x.com/MaksimOlekhno/status/2115477011305058334"
+    },
+    {
+      "repo": "mahdi-salmanzade/toybox-director",
+      "name": "Toybox Director",
+      "category": "camera",
+      "summary": "Block a shot with toys on a 3D stage, then render it with open-weights LTX.",
+      "post": "https://x.com/MahdiSPHP/status/2115900815995183196"
+    },
+    {
+      "repo": "navarisun1982/comfyui-motion-previs-studio",
+      "name": "Motion Previs Studio",
+      "category": "camera",
+      "summary": "3D camera, character and motion previs, an open take on Higgsfield 3D.",
+      "post": null
+    },
+    {
+      "repo": "LaytonGott/open-cinema",
+      "name": "Open Cinema",
+      "category": "camera",
+      "summary": "Direct a shot, then change the lens afterwards: LTX-2 video plus physically based depth of field.",
+      "post": null
+    },
+    {
+      "repo": "metababe-eth/hero-frame-rig",
+      "name": "Hero Frame Rig",
+      "category": "camera",
+      "summary": "Change the focus of any clip after it is made.",
+      "post": "https://x.com/metababa_eth/status/2115097941488615565"
+    },
+    {
+      "repo": "apsolut/one-shot-multicam",
+      "name": "One-shot Multicam",
+      "category": "camera",
+      "summary": "Turn one selfie video into a multi-camera edit.",
+      "post": "https://x.com/apsolut/status/2115181931788935556"
+    },
+    {
+      "repo": "Alvinvision/360-Scout-to-Film-Consistency",
+      "name": "360 Scout to Film",
+      "category": "camera",
+      "summary": "Camera-controlled 360 location references and multi-shot video inside ComfyUI.",
+      "post": null
+    },
+    {
+      "repo": "ArcSolver/shot-board",
+      "name": "Shot Board",
+      "category": "camera",
+      "summary": "Write one scene, get six shots, pick a hero take and redraw the cuts from it.",
+      "post": "https://x.com/arcsolve_ai/status/2115962151626313766"
+    },
+    {
+      "repo": "junco3/motion-guard",
+      "name": "Motion Guard",
+      "category": "camera",
+      "summary": "Checks AI video against its 3D motion reference before an expensive upscale.",
+      "post": null
+    },
+    {
+      "repo": "soft-jelly/shotcheck",
+      "name": "ShotCheck",
+      "category": "camera",
+      "summary": "CPU-only camera-motion checker: match, mismatch or inconclusive.",
+      "post": "https://x.com/shotcheck_dev/status/2116061588457443645"
+    },
+    {
+      "repo": "EmmanuelRiveros/TimeFlight",
+      "name": "TimeFlight",
+      "category": "camera",
+      "summary": "Drone flights over real places that go back in time, from open geodata.",
+      "post": null
+    },
+    {
+      "repo": "hodgemann/mondo-music-video",
+      "name": "Mondo Music Video",
+      "category": "film",
+      "summary": "Music-video studio with an actor protocol and optional MCP tools.",
+      "post": "https://x.com/mann_hodge/status/2115910199978709476"
+    },
+    {
+      "repo": "tysonfarrington-cmyk/xenoform",
+      "name": "Xenoform",
+      "category": "film",
+      "summary": "Song in, music video out, on your own GPU with open weights.",
+      "post": "https://x.com/tysostudio/status/2116015118178009491"
+    },
+    {
+      "repo": "smithysw7/openreel",
+      "name": "OpenReel",
+      "category": "film",
+      "summary": "One logline in, a character-consistent short film out.",
+      "post": "https://x.com/ChigoQI/status/2114360365467480182"
+    },
+    {
+      "repo": "DialloWill/storyboard-studio",
+      "name": "Storyboard Studio",
+      "category": "film",
+      "summary": "Open rebuild of Higgsfield Cinema Studio for music-video storyboards.",
+      "post": null
+    },
+    {
+      "repo": "thaohienhomes/oneliner",
+      "name": "Oneliner",
+      "category": "film",
+      "summary": "Type one line, get a cinematic trailer on Comfy Cloud, LTX and ffmpeg.",
+      "post": null
+    },
+    {
+      "repo": "Editorenbici/leafreel",
+      "name": "LeafReel",
+      "category": "film",
+      "summary": "Any document into a narrated explainer video in 8 visual styles.",
+      "post": "https://x.com/EditorEnBici/status/2115458693860933941"
+    },
+    {
+      "repo": "spiritform/herosjourney",
+      "name": "Hero's Journey",
+      "category": "film",
+      "summary": "The monomyth as a generative experience starring you.",
+      "post": "https://x.com/spiritform/status/2115674848630591970"
+    },
+    {
+      "repo": "chenthedesignmaker/ComfyUI-Picky",
+      "name": "Picky",
+      "category": "film",
+      "summary": "Render a shot ten ways and keep the one you love.",
+      "post": "https://x.com/DesignMakerChen/status/2115981756948164708"
+    },
+    {
+      "repo": "GiveMePrompts/crew-cut",
+      "name": "Crew Cut",
+      "category": "film",
+      "summary": "A party game that makes a movie: phones become characters, friends direct scenes.",
+      "post": null
+    },
+    {
+      "repo": "Nemont3/cat-tapes",
+      "name": "Cat Tapes",
+      "category": "film",
+      "summary": "Lo-fi VHS cat home videos made locally with LTX.",
+      "post": null
+    },
+    {
+      "repo": "jhoard/open-ads-studio",
+      "name": "Open Ads Studio",
+      "category": "ads",
+      "summary": "Open-weights rebuild of Higgsfield Ads Studio with label-exact, compliance-checked product shots.",
+      "post": null
+    },
+    {
+      "repo": "moonz-1/open-ad-studio",
+      "name": "Open Ad Studio",
+      "category": "ads",
+      "summary": "Open-source AI creative agency on ComfyUI.",
+      "post": null
+    },
+    {
+      "repo": "ergophobian/comfyfield",
+      "name": "ComfyField",
+      "category": "ads",
+      "summary": "Insert your product into proven viral short-form formats and post on schedule.",
+      "post": "https://x.com/indefatigabile/status/2116060732353863810"
+    },
+    {
+      "repo": "kingofmit/ComfyUI-HiggsOpen",
+      "name": "HiggsOpen",
+      "category": "ads",
+      "summary": "Rebuild of Higgsfield Diffuse: a topic in, a viral short video out.",
+      "post": null
+    },
+    {
+      "repo": "vidyabharadwaj03/reelmatch",
+      "name": "Reelmatch",
+      "category": "ads",
+      "summary": "Describe a campaign, drop in photos, get a UGC-style ad draft.",
+      "post": null
+    },
+    {
+      "repo": "untitledxdamage/comfyui-personalized-ad-spots",
+      "name": "Personalized Ad Spots",
+      "category": "ads",
+      "summary": "Lip-synced personalized greetings joined to an ad spot, at scale.",
+      "post": null
+    },
+    {
+      "repo": "jk-automations/urban-cuts",
+      "name": "Urban Cuts",
+      "category": "ads",
+      "summary": "ComfyUI App Mode clone of Higgsfield Urban Cuts: a photo plus outfits or products.",
+      "post": null
+    },
+    {
+      "repo": "ToxicLizard99/Dataset-Forge",
+      "name": "Dataset Forge",
+      "category": "characters",
+      "summary": "One face in, a full character LoRA dataset out.",
+      "post": null
+    },
+    {
+      "repo": "ZhuEvgeny/Character-lock-comfy",
+      "name": "Character Lock",
+      "category": "characters",
+      "summary": "One reference image in, a locked character look out.",
+      "post": "https://x.com/xx0618/status/2116021940309672166"
+    },
+    {
+      "repo": "Soussa4535/SoulPersonEnhance",
+      "name": "Soul Person Enhance",
+      "category": "characters",
+      "summary": "Enhance each person in a photo separately, or only the ones you pick.",
+      "post": "https://x.com/Soussa_3d/status/2116049274685313503"
+    },
+    {
+      "repo": "0xMisterBailey/Boson",
+      "name": "Boson",
+      "category": "characters",
+      "summary": "Your taste as plain files in git that every next generation reads.",
+      "post": null
+    },
+    {
+      "repo": "jtydhr88/ComfyArt",
+      "name": "ComfyArt",
+      "category": "canvas",
+      "summary": "Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally.",
+      "post": "https://x.com/jtydhr88/status/2114927438518219073"
+    },
+    {
+      "repo": "raph651/open-source-canvas",
+      "name": "Open Source Canvas",
+      "category": "canvas",
+      "summary": "Node canvas that runs ComfyUI workflows.",
+      "post": "https://x.com/RaphaelLiu10/status/2115913910075449637"
+    },
+    {
+      "repo": "FrameDeptCo/freavy",
+      "name": "Freavy",
+      "category": "canvas",
+      "summary": "Local-first node canvas for AI image and video on ComfyUI.",
+      "post": null
+    },
+    {
+      "repo": "HomoLapis/justae-flow",
+      "name": "Justae Flow",
+      "category": "canvas",
+      "summary": "ComfyUI inside the open-source EffectCraft editor.",
+      "post": null
+    },
+    {
+      "repo": "viriato68/open-studio-for-affinity",
+      "name": "Open Studio for Affinity",
+      "category": "canvas",
+      "summary": "Local AI editing inside Affinity, powered by ComfyUI.",
+      "post": null
+    },
+    {
+      "repo": "welski3/framecommander",
+      "name": "FrameCommander",
+      "category": "canvas",
+      "summary": "Web UI for MiniMax H3 video through ComfyUI workflows on RunningHub.",
+      "post": "https://x.com/itswelski/status/2116007537149710584"
+    },
+    {
+      "repo": "obaidiDev/openfield",
+      "name": "openfield (Blender MCP)",
+      "category": "canvas",
+      "summary": "The Higgsfield Blender MCP stack made local-first with a self-hosted gateway.",
+      "post": null
+    },
+    {
+      "repo": "mhaihq/hana-comfy-hack",
+      "name": "Ask Higgsy",
+      "category": "canvas",
+      "summary": "Video-call a small animated guide that helps you pick the right model.",
+      "post": "https://x.com/Hello_Sinha/status/2115965713789935964"
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "name": "Open-Generative-AI",
+      "category": "beyond",
+      "summary": "Formerly Open-Higgsfield-AI. The biggest web and desktop studio; cloud models through Muapi.ai.",
+      "post": null
+    },
+    {
+      "repo": "wide-trace/open-higgsfield",
+      "name": "open-higgsfield",
+      "category": "beyond",
+      "summary": "Next.js web app with a hosted demo; needs a platform API key.",
+      "post": null
+    },
+    {
+      "repo": "SegFault42/HeliosGen",
+      "name": "HeliosGen",
+      "category": "beyond",
+      "summary": "Tauri desktop app with a Mac build; generations through kie.ai.",
+      "post": null
+    },
+    {
+      "repo": "BeatAPI/BeatDesign",
+      "name": "BeatDesign",
+      "category": "beyond",
+      "summary": "Local web workspace on Node.js; generations through BeatAPI.",
+      "post": null
+    },
+    {
+      "repo": "Lightricks/LTX-Desktop",
+      "name": "LTX Desktop",
+      "category": "beyond",
+      "summary": "Lightricks' own desktop app for running LTX video models locally.",
+      "post": null
+    },
+    {
+      "repo": "jutsuhq/kawarimi-local-character-swap",
+      "name": "Kawarimi",
+      "category": "beyond",
+      "summary": "Local character swap for Windows and Linux on Wan 2.2 Animate through ComfyUI. Made by the maintainers of this list.",
+      "post": null
+    }
+  ]
+}
