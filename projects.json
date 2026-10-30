@@ -146,6 +146,13 @@
       "post": null
     },
     {
+      "repo": "lvsas/OpenJutsuStudio",
+      "name": "Open Jutsu Studio",
+      "category": "character-swap",
+      "summary": "Video studio that puts your characters into real footage on your own ComfyUI, reopens an H3 take to continue the story and exports a vertical before/after reel.",
+      "post": "https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/"
+    },
+    {
       "repo": "wexloops/openfield",
       "name": "OpenField",
       "category": "studios",
@@ -552,6 +559,13 @@
       "post": null
     },
     {
+      "repo": "bgstratt/seriesmith",
+      "name": "seriesmith",
+      "category": "film",
+      "summary": "A series config and markdown episode scripts in, finished episodes out: any shot on any model, on your own GPU or on Comfy's cloud.",
+      "post": null
+    },
+    {
       "repo": "jhoard/open-ads-studio",
       "name": "Open Ads Studio",
       "category": "ads",
@@ -629,6 +643,13 @@
       "post": null
     },
     {
+      "repo": "fixed-42/comfyui-sameface",
+      "name": "comfyui-sameface",
+      "category": "characters",
+      "summary": "Custom node that measures where an image edit moved the parts of a face and moves them back, on open weights.",
+      "post": null
+    },
+    {
       "repo": "jtydhr88/ComfyArt",
       "name": "ComfyArt",
       "category": "canvas",
@@ -685,6 +706,20 @@
       "post": "https://x.com/Hello_Sinha/status/2115965713789935964"
     },
     {
+      "repo": "crystalattice/CBI_RenderRepo",
+      "name": "RenderRepo",
+      "category": "canvas",
+      "summary": "Local-first package manager for ComfyUI workflows: discover, inspect, install and open workflows while reusing the models and nodes you already have.",
+      "post": "https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/"
+    },
+    {
+      "repo": "doubletwisted/ComfyUI-Spool",
+      "name": "ComfyUI-Spool",
+      "category": "canvas",
+      "summary": "Video timeline for ComfyUI: queue workflows per clip, review the generated takes and assemble a sequence.",
+      "post": null
+    },
+    {
       "repo": "Anil-matcha/Open-Generative-AI",
       "name": "Open-Generative-AI",
       "category": "beyond",
@@ -732,6 +767,6 @@
       "category": "studios",
       "summary": "AI agent inside ComfyUI: describe the result and it picks or builds the workflow, runs it and puts the output on your canvas; any LLM, fully local with Ollama, plus a built-in image, video and 3D viewer, Atlas worlds and Gaussian splats.",
       "post": "https://youtu.be/4vtsBWx3Q9k"
-    }    
+    }
   ]
 }
