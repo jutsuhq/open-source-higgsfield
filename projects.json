@@ -377,6 +377,27 @@
       "post": "https://x.com/TheBurgstall/status/2115895644426834025"
     },
     {
+      "repo": "okkazoo/MOTNGRFX",
+      "name": "MOTNGRFX",
+      "category": "effects",
+      "summary": "Node pack and browser app that turns a song, a few images or a short brief into a kinetic-type motion graphic, with 3D type landing on the beat, on open weights.",
+      "post": "https://x.com/OKKazooo/status/2116165296981688625"
+    },
+    {
+      "repo": "Zitroffi/comfyui-element-forge",
+      "name": "Element Forge",
+      "category": "effects",
+      "summary": "AI VFX elements for your own footage: LTX-2.5 generates fire, lightning, smoke or particles, then Element Forge tracks, lights and layers them into the shot so they stay editable.",
+      "post": "https://www.reddit.com/r/comfyui/comments/1xjj8t8/element_forge_editable_ai_vfx_for_real_footage/"
+    },
+    {
+      "repo": "thekhoma/pickups",
+      "name": "Pickups",
+      "category": "effects",
+      "summary": "Video app on top of ComfyUI: pick a shot and change the weather, the lighting or what is in the frame.",
+      "post": null
+    },
+    {
       "repo": "Tekholms-LW/ReAngle",
       "name": "ReAngle",
       "category": "camera",
@@ -710,6 +731,20 @@
       "name": "ComfyUI-Spool",
       "category": "canvas",
       "summary": "Video timeline for ComfyUI: queue workflows per clip, review the generated takes and assemble a sequence.",
+      "post": null
+    },
+    {
+      "repo": "roadmaus/ComfyUI-Continuity",
+      "name": "ComfyUI-Continuity",
+      "category": "canvas",
+      "summary": "One node for AI video and stills: write a prompt, attach media with @ and press Render; six model families, all local through ComfyUI core.",
+      "post": null
+    },
+    {
+      "repo": "kubakubkub/ComfyUI_KubaNodes",
+      "name": "KubaNodes",
+      "category": "canvas",
+      "summary": "Visual toolset for pictures made of parts: projection mapping with regions, per-region diffusion, a director window, and video and 3D scene tools.",
       "post": null
     },
     {
