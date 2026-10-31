@@ -20,7 +20,7 @@ Entries were found through the #OpenSourceHiggsfield tag on X and through GitHub
 
 | Project | What it does | Stars | License |
 | --- | --- | --- | --- |
-| [OPENjutsu](https://github.com/D3voz/openjutsu) | The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place. | 651 | MIT |
+| [OPENjutsu](https://github.com/D3voz/openjutsu) | The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place. | 656 | MIT |
 | [ComfyArt](https://github.com/jtydhr88/ComfyArt) | Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally. | 405 | MIT |
 | [ComfyUI-Continuity](https://github.com/roadmaus/ComfyUI-Continuity) | One node for AI video and stills: write a prompt, attach media with @ and press Render; six model families, all local through ComfyUI core. | 138 | MIT |
 | [OpenField](https://github.com/wexloops/openfield) | Studio for video, stills and 3D on your own GPU: every app is a ComfyUI workflow with a screen on top, open weights only. | 116 | none |
@@ -53,7 +53,7 @@ Entries were found through the #OpenSourceHiggsfield tag on X and through GitHub
 
 Open-source takes on Higgsfield Genjutsu: replace the person in a video with a character from one image and keep the camera, motion and sound.
 
-- [OPENjutsu](https://github.com/D3voz/openjutsu) - The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place. ★ 651 · MIT · [launch post](https://x.com/Devozikjr/status/2115078855321141502)
+- [OPENjutsu](https://github.com/D3voz/openjutsu) - The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place. ★ 656 · MIT · [launch post](https://x.com/Devozikjr/status/2115078855321141502)
 - [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) - Official clonable character-swap app and development guide from Comfy: upload a clip and a character image, get a 5 to 15 second part back with the character in it. ★ 68 · MIT
 - [H3 Recast](https://github.com/Bambushu/h3-recast) - Swaps up to three people in an existing clip in one pass with MiniMax H3 and a BFS LoRA, keeping the motion, set and audio; optional FaceRefine lip pass, 16 GB VRAM and 64 GB RAM. ★ 36 · MIT · [launch post](https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/)
 - [Body Double](https://github.com/lucataco/open-source-higgsfield) - Same take, new cast: swaps the actors in a clip with open-weights models only. ★ 25 · Apache-2.0 · [launch post](https://x.com/lucataco/status/2116050693601558608)
@@ -193,10 +193,10 @@ Node canvases, web UIs and helpers that put a friendlier face on ComfyUI.
 
 Older open-source Higgsfield alternatives on GitHub, most of them cloud front ends that need someone's API key.
 
-- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) - Formerly Open-Higgsfield-AI. The biggest web and desktop studio; cloud models through Muapi.ai. ★ 31,898 · MIT
-- [open-higgsfield](https://github.com/wide-trace/open-higgsfield) - Next.js web app with a hosted demo; needs a platform API key. ★ 5,121 · no license
+- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) - Formerly Open-Higgsfield-AI. The biggest web and desktop studio; cloud models through Muapi.ai. ★ 31,897 · MIT
+- [open-higgsfield](https://github.com/wide-trace/open-higgsfield) - Next.js web app with a hosted demo; needs a platform API key. ★ 5,122 · no license
 - [HeliosGen](https://github.com/SegFault42/HeliosGen) - Tauri desktop app with a Mac build; generations through kie.ai. ★ 3,220 · no license
-- [LTX Desktop](https://github.com/Lightricks/LTX-Desktop) - Lightricks' own desktop app for running LTX video models locally. ★ 2,192 · Apache-2.0
+- [LTX Desktop](https://github.com/Lightricks/LTX-Desktop) - Lightricks' own desktop app for running LTX video models locally. ★ 2,193 · Apache-2.0
 - [BeatDesign](https://github.com/BeatAPI/BeatDesign) - Local web workspace on Node.js; generations through BeatAPI. ★ 281 · Apache-2.0
 - [Kawarimi](https://github.com/jutsuhq/kawarimi-local-character-swap) - Local character swap for Windows and Linux on Wan 2.2 Animate through ComfyUI. Made by the maintainers of this list. ★ 2 · MIT
 
@@ -205,6 +205,8 @@ Older open-source Higgsfield alternatives on GitHub, most of them cloud front en
 Missing a project? Open a pull request that adds it to [projects.json](projects.json) with a one-line summary, then run `node scripts/build.mjs` to refresh the stats and this README. Projects need a public repository with a README.
 
 See also [Awesome Higgsfield](https://github.com/jutsuhq/awesome-higgsfield) for SDKs, MCP servers and agent skills built on Higgsfield itself.
+
+Maintained by [Jutsu Studio](https://jutsustudio.com/), the open-source Higgsfield desktop app for Mac ([GitHub](https://github.com/jutsuhq/jutsu-studio)).
 
 ## License
 
