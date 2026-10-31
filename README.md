@@ -2,7 +2,7 @@
 
 > Open-source Higgsfield AI alternatives on GitHub, starting with every notable project built for ComfyUI's #OpenSourceHiggsfield challenge: Genjutsu-style character swap, one-tap effects, camera re-shoots and full studios that run open-weights models on your own GPU or on Comfy Cloud.
 
-100 challenge projects and 6 older alternatives, with stars and licenses as of 2026-10-31. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
+101 challenge projects and 6 older alternatives, with stars and licenses as of 2026-10-31. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
 
 This is an unofficial community list. It is not affiliated with or endorsed by Higgsfield or Comfy.
 
@@ -97,6 +97,7 @@ Higgsfield-style apps with many tools behind one screen: effects, camera moves, 
 - [Liberty Cut](https://github.com/E5EnclaveInc/liberty-cut) - Cinematic studio built only on open weights (LTX-Video). ★ 0 · MIT
 - [Montagio](https://github.com/Jubzh-29/montagio) - Viral video effects and camera moves as an open-source Higgsfield alternative. ★ 0 · AGPL-3.0
 - [Vision Orchestrator](https://github.com/stellartune-studio/vision-orchestrator) - Chat with an LLM as the director while it grows a production blueprint: story, characters, materials, shots. ★ 0 · no license · [launch post](https://x.com/StellartuneCore/status/2116083086421319846)
+- [Parametric Studio](https://github.com/parametricparadigm/ComfyUI_Parametric_Studio) - Local studio on ComfyUI spanning 82 open model families: guided forms, recipes and a crew of AI specialists, with the real graph behind every render shown in 3D. ★ 1 · AGPL-3.0 · [launch post](https://www.reddit.com/r/comfyui/comments/1xjg4vk/parametric_studio_every_open_model_one_studio/)
 
 ## Effects and VFX
 

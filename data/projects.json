@@ -1637,6 +1637,21 @@
       "pushed": "2026-10-30",
       "homepage": null,
       "archived": false
+    },
+    {
+      "repo": "parametricparadigm/ComfyUI_Parametric_Studio",
+      "name": "Parametric Studio",
+      "category": "studios",
+      "summary": "Local studio on ComfyUI spanning 82 open model families: guided forms, recipes and a crew of AI specialists, with the real graph behind every render shown in 3D.",
+      "post": "https://www.reddit.com/r/comfyui/comments/1xjg4vk/parametric_studio_every_open_model_one_studio/",
+      "url": "https://github.com/parametricparadigm/ComfyUI_Parametric_Studio",
+      "stars": 1,
+      "forks": 1,
+      "license": "AGPL-3.0",
+      "created": "2026-10-30",
+      "pushed": "2026-10-30",
+      "homepage": "https://parametricparadigm.github.io/ComfyUI_Parametric_Studio/",
+      "archived": false
     }
   ]
 }
