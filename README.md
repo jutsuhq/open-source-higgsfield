@@ -2,7 +2,7 @@
 
 > Open-source Higgsfield AI alternatives on GitHub, starting with every notable project built for ComfyUI's #OpenSourceHiggsfield challenge: Genjutsu-style character swap, one-tap effects, camera re-shoots and full studios that run open-weights models on your own GPU or on Comfy Cloud.
 
-100 challenge projects and 6 older alternatives, with stars and licenses as of 2026-10-31. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
+102 challenge projects and 6 older alternatives, with stars and licenses as of 2026-11-01. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
 
 This is an unofficial community list. It is not affiliated with or endorsed by Higgsfield or Comfy.
 
@@ -20,21 +20,21 @@ Entries were found through the #OpenSourceHiggsfield tag on X and through GitHub
 
 | Project | What it does | Stars | License |
 | --- | --- | --- | --- |
-| [ComfyArt](https://github.com/jtydhr88/ComfyArt) | Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally. | 409 | MIT |
+| [OPENjutsu](https://github.com/D3voz/openjutsu) | The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place. | 910 | MIT |
+| [ComfyArt](https://github.com/jtydhr88/ComfyArt) | Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally. | 411 | MIT |
 | [ComfyUI-Continuity](https://github.com/roadmaus/ComfyUI-Continuity) | One node for AI video and stills: write a prompt, attach media with @ and press Render; six model families, all local through ComfyUI core. | 139 | MIT |
-| [OpenField](https://github.com/wexloops/openfield) | Studio for video, stills and 3D on your own GPU: every app is a ComfyUI workflow with a screen on top, open weights only. | 120 | none |
+| [OpenField](https://github.com/wexloops/openfield) | Studio for video, stills and 3D on your own GPU: every app is a ComfyUI workflow with a screen on top, open weights only. | 124 | none |
 | [Open Source Canvas](https://github.com/raph651/open-source-canvas) | Node canvas that runs ComfyUI workflows. | 106 | MIT |
-| [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) | Official clonable character-swap app and development guide from Comfy: upload a clip and a character image, get a 5 to 15 second part back with the character in it. | 72 | MIT |
+| [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) | Official clonable character-swap app and development guide from Comfy: upload a clip and a character image, get a 5 to 15 second part back with the character in it. | 81 | MIT |
 | [agentY](https://github.com/szprivate/agentY) | AI agent inside ComfyUI: describe the result and it picks or builds the workflow, runs it and puts the output on your canvas; any LLM, fully local with Ollama, plus a built-in image, video and 3D viewer, Atlas worlds and Gaussian splats. | 46 | MIT |
+| [Body Double](https://github.com/lucataco/open-source-higgsfield) | Same take, new cast: swaps the actors in a clip with open-weights models only. | 45 | Apache-2.0 |
 | [CreatorOS Studio](https://github.com/thePloggy/CreatorOS-Studio) | Self-hosted studio for one recurring character, from a one-line brief to a finished reel: camera moves, effects, talking avatars, motion transfer and a video editor. | 45 | Apache-2.0 |
-| [Body Double](https://github.com/lucataco/open-source-higgsfield) | Same take, new cast: swaps the actors in a clip with open-weights models only. | 37 | Apache-2.0 |
 | [H3 Recast](https://github.com/Bambushu/h3-recast) | Swaps up to three people in an existing clip in one pass with MiniMax H3 and a BFS LoRA, keeping the motion, set and audio; optional FaceRefine lip pass, 16 GB VRAM and 64 GB RAM. | 37 | MIT |
-| [Picky](https://github.com/chenthedesignmaker/ComfyUI-Picky) | Render a shot ten ways and keep the one you love. | 28 | GPL-3.0 |
-| [Motion Previs Studio](https://github.com/navarisun1982/comfyui-motion-previs-studio) | 3D camera, character and motion previs, an open take on Higgsfield 3D. | 23 | MIT |
+| [Picky](https://github.com/chenthedesignmaker/ComfyUI-Picky) | Render a shot ten ways and keep the one you love. | 29 | GPL-3.0 |
+| [Motion Previs Studio](https://github.com/navarisun1982/comfyui-motion-previs-studio) | 3D camera, character and motion previs, an open take on Higgsfield 3D. | 27 | MIT |
 | [OpenKatana](https://github.com/rk0neki/OpenKatana) | Agent-driven video editing with a studio UI, ComfyUI Apps, a CLI and an MCP server. | 20 | Apache-2.0 |
 | [Seam](https://github.com/jdnichollsc/seam) | Two shots in, one AI transition out: smoke, water and more. | 19 | MIT |
 | [Director's Cut](https://github.com/leonardofrito/Directors-Cut) | Local asset library and reference-to-video studio for ComfyUI. | 16 | MIT |
-| [SpEdE](https://github.com/Burgstall-labs/ComfyUI-SpEdE) | Click an object in a Gaussian splat, then remove, replace or restyle it. | 15 | AGPL-3.0 |
 
 ## Contents
 
@@ -53,8 +53,9 @@ Entries were found through the #OpenSourceHiggsfield tag on X and through GitHub
 
 Open-source takes on Higgsfield Genjutsu: replace the person in a video with a character from one image and keep the camera, motion and sound.
 
-- [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) - Official clonable character-swap app and development guide from Comfy: upload a clip and a character image, get a 5 to 15 second part back with the character in it. ★ 72 · MIT
-- [Body Double](https://github.com/lucataco/open-source-higgsfield) - Same take, new cast: swaps the actors in a clip with open-weights models only. ★ 37 · Apache-2.0 · [launch post](https://x.com/lucataco/status/2116050693601558608)
+- [OPENjutsu](https://github.com/D3voz/openjutsu) - The Comfy team's open-source Genjutsu-style character and object swap: drop a video and a photo, press Generate. Also changes hair or clothes, removes objects or moves the person to a new place. ★ 910 · MIT · [launch post](https://x.com/Devozikjr/status/2115078855321141502)
+- [comfy-openjutsu](https://github.com/Comfy-Org/comfy-openjutsu) - Official clonable character-swap app and development guide from Comfy: upload a clip and a character image, get a 5 to 15 second part back with the character in it. ★ 81 · MIT
+- [Body Double](https://github.com/lucataco/open-source-higgsfield) - Same take, new cast: swaps the actors in a clip with open-weights models only. ★ 45 · Apache-2.0 · [launch post](https://x.com/lucataco/status/2116050693601558608)
 - [H3 Recast](https://github.com/Bambushu/h3-recast) - Swaps up to three people in an existing clip in one pass with MiniMax H3 and a BFS LoRA, keeping the motion, set and audio; optional FaceRefine lip pass, 16 GB VRAM and 64 GB RAM. ★ 37 · MIT · [launch post](https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/)
 - [Swapjutsu](https://github.com/jutsuhq/swapjutsu-seedance-character-swap) - Free Mac app that swaps a character into any video: prepares the clip on the Mac with Vision, Core ML and MLX, then renders on Seedance 2.5 through Comfy or on your own ComfyUI with Wan 2.2 Animate. ★ 7 · MIT · [launch post](https://x.com/itsnex1s/status/2112238675396354545)
 - [Open Jutsu Studio](https://github.com/lvsas/OpenJutsuStudio) - Video studio that puts your characters into real footage on your own ComfyUI, reopens an H3 take to continue the story and exports a vertical before/after reel. ★ 5 · Apache-2.0 · [launch post](https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/)
@@ -71,17 +72,17 @@ Open-source takes on Higgsfield Genjutsu: replace the person in a video with a c
 
 Higgsfield-style apps with many tools behind one screen: effects, camera moves, characters and editing, on your own GPU or Comfy Cloud.
 
-- [OpenField](https://github.com/wexloops/openfield) - Studio for video, stills and 3D on your own GPU: every app is a ComfyUI workflow with a screen on top, open weights only. ★ 120 · no license · [launch post](https://x.com/strangelooptv/status/2115577068541125062)
+- [OpenField](https://github.com/wexloops/openfield) - Studio for video, stills and 3D on your own GPU: every app is a ComfyUI workflow with a screen on top, open weights only. ★ 124 · no license · [launch post](https://x.com/strangelooptv/status/2115577068541125062)
 - [agentY](https://github.com/szprivate/agentY) - AI agent inside ComfyUI: describe the result and it picks or builds the workflow, runs it and puts the output on your canvas; any LLM, fully local with Ollama, plus a built-in image, video and 3D viewer, Atlas worlds and Gaussian splats. ★ 46 · MIT · [launch post](https://youtu.be/4vtsBWx3Q9k)
 - [CreatorOS Studio](https://github.com/thePloggy/CreatorOS-Studio) - Self-hosted studio for one recurring character, from a one-line brief to a finished reel: camera moves, effects, talking avatars, motion transfer and a video editor. ★ 45 · Apache-2.0
 - [OpenKatana](https://github.com/rk0neki/OpenKatana) - Agent-driven video editing with a studio UI, ComfyUI Apps, a CLI and an MCP server. ★ 20 · Apache-2.0 · [launch post](https://x.com/rk0neki/status/2113466389545841002)
 - [Director's Cut](https://github.com/leonardofrito/Directors-Cut) - Local asset library and reference-to-video studio for ComfyUI. ★ 16 · MIT · [launch post](https://x.com/oLeonardoFrito/status/2114819677386088802)
-- [OpenSourceHiggsfield](https://github.com/kevin9327/OpenSourceHiggsfield) - Three-in-one cinema and video studio on open weights. ★ 9 · MIT
+- [OpenSourceHiggsfield](https://github.com/kevin9327/OpenSourceHiggsfield) - Three-in-one cinema and video studio on open weights. ★ 10 · MIT
 - [Comfield](https://github.com/synthetic-ape/comfield) - Higgsfield-style creative studio for AI images and video on ComfyUI. ★ 6 · MIT · [launch post](https://x.com/synthetic_ape/status/2111116405890330982)
-- [HyperKut Studio](https://github.com/MajoorWaldi/HyperKut-Studio) - Local ComfyUI video studio for creating, remixing and editing video. ★ 5 · MIT
+- [HyperKut Studio](https://github.com/MajoorWaldi/HyperKut-Studio) - Local ComfyUI video studio for creating, remixing and editing video. ★ 6 · MIT
+- [MarcoStudio](https://github.com/NeoMarcoPolo/marcostudio) - 13 image and video tools on your own ComfyUI with open-weights models. ★ 5 · MIT
 - [Backlot](https://github.com/Arfolomew/backlot) - Open-source Higgsfield that runs on a 16 GB card with local open-weights video. ★ 4 · MIT · [launch post](https://x.com/Arfolomew/status/2112257381589491971)
-- [MarcoStudio](https://github.com/NeoMarcoPolo/marcostudio) - 13 image and video tools on your own ComfyUI with open-weights models. ★ 4 · MIT
-- [Cheapsfield](https://github.com/dougliell/Cheapsfield) - Fully local, open-weights creative studio for Windows with Higgsfield-style apps. ★ 3 · Apache-2.0
+- [Cheapsfield](https://github.com/dougliell/Cheapsfield) - Fully local, open-weights creative studio for Windows with Higgsfield-style apps. ★ 4 · Apache-2.0
 - [EasyComfee](https://github.com/sintetizacom/easycomfee) - Higgsfield-style studio on ComfyUI: image, video and LTX VFX. ★ 3 · MIT · [launch post](https://x.com/sintetizacom/status/2115884037902393594)
 - [FrameForge Studio](https://github.com/RahmelJackson/frameforge-studio) - Creative studio inspired by Higgsfield, powered by ComfyUI workflows. ★ 3 · MIT · [launch post](https://x.com/Rahmeljackson/status/2114708845754782072)
 - [OpenIllusion](https://github.com/GETHUK-BIGEMPEROR/OpenIllusion) - Turns ComfyUI workflows into one-click templates: pick one, drop in a photo, clip or sound, press Run. ★ 3 · MIT · [launch post](https://x.com/tzu_crypto/status/2115801099768832392)
@@ -105,13 +106,14 @@ One-tap viral effects and plate-preserving VFX, the open version of Higgsfield p
 - [Seam](https://github.com/jdnichollsc/seam) - Two shots in, one AI transition out: smoke, water and more. ★ 19 · MIT · [launch post](https://x.com/jdnichollsc/status/2116019265275150774)
 - [SpEdE](https://github.com/Burgstall-labs/ComfyUI-SpEdE) - Click an object in a Gaussian splat, then remove, replace or restyle it. ★ 15 · AGPL-3.0 · [launch post](https://x.com/TheBurgstall/status/2115895644426834025)
 - [Element Forge](https://github.com/Zitroffi/comfyui-element-forge) - AI VFX elements for your own footage: LTX-2.5 generates fire, lightning, smoke or particles, then Element Forge tracks, lights and layers them into the shot so they stay editable. ★ 8 · MIT · [launch post](https://www.reddit.com/r/comfyui/comments/1xjj8t8/element_forge_editable_ai_vfx_for_real_footage/)
+- [FreeField](https://github.com/droppedmyza/freefield) - Higgsfield-style viral effects as ComfyUI workflows: one photo in, one shareable clip out. ★ 6 · MIT · [launch post](https://x.com/droppedmyza/status/2113669761762726058)
 - [Pickups](https://github.com/thekhoma/pickups) - Video app on top of ComfyUI: pick a shot and change the weather, the lighting or what is in the frame. ★ 6 · MIT
-- [FreeField](https://github.com/droppedmyza/freefield) - Higgsfield-style viral effects as ComfyUI workflows: one photo in, one shareable clip out. ★ 4 · MIT · [launch post](https://x.com/droppedmyza/status/2113669761762726058)
 - [LiDAR Lab](https://github.com/chinesepowered/hack-comfy) - LiDAR scan, clones, vanish and bullet-time effects that run on a laptop CPU. ★ 3 · Apache-2.0 · [launch post](https://x.com/ChinesePowered/status/2115643778866483208)
 - [PlateLock](https://github.com/TusharTechs/platelock) - Plate-preserving generative VFX: add the effect, keep the original shot. ★ 3 · MIT
 - [Forkfield](https://github.com/marciano71/forkfield) - Fork any video: Higgsfield-style effects where every clip keeps its recipe. ★ 1 · MIT
 - [MOTNGRFX](https://github.com/okkazoo/MOTNGRFX) - Node pack and browser app that turns a song, a few images or a short brief into a kinetic-type motion graphic, with 3D type landing on the beat, on open weights. ★ 1 · Apache-2.0 · [launch post](https://x.com/OKKazooo/status/2116165296981688625)
 - [Conjure](https://github.com/Orazen/conjure) - One photo, one tap, a whole VFX shot: gold statue, inflate, disintegrate, earth zoom-out on FLUX and LTX. ★ 0 · no license · [launch post](https://x.com/sudotarunai/status/2114782959060595110)
+- [Earthfall](https://github.com/jamiejk/earthfall) - Higgsfield's Earth Zoom as an open app: pick a landmark, add a portrait, get a ten-second dive from orbit through cloud to that person. ★ 0 · GPL-3.0 · [launch post](https://x.com/jamie_jk/status/2116104753834803415)
 - [FXjutsu](https://github.com/audriu/fxjutsu) - Higgsfield-style VFX presets on your own footage with LTX-2.5. ★ 0 · no license
 - [One-take VFX](https://github.com/Kainotomic/one-take-vfx) - Add disintegrate, levitate, fire, portal or time-freeze to a phone clip with LTX 2.5. ★ 0 · MIT · [launch post](https://x.com/apple_techie/status/2115988400557981807)
 
@@ -119,7 +121,7 @@ One-tap viral effects and plate-preserving VFX, the open version of Higgsfield p
 
 Re-shoot a clip from a new angle, plan camera moves in 3D, or check that a render followed the move.
 
-- [Motion Previs Studio](https://github.com/navarisun1982/comfyui-motion-previs-studio) - 3D camera, character and motion previs, an open take on Higgsfield 3D. ★ 23 · MIT
+- [Motion Previs Studio](https://github.com/navarisun1982/comfyui-motion-previs-studio) - 3D camera, character and motion previs, an open take on Higgsfield 3D. ★ 27 · MIT
 - [360 Scout to Film](https://github.com/Alvinvision/360-Scout-to-Film-Consistency) - Camera-controlled 360 location references and multi-shot video inside ComfyUI. ★ 4 · MIT
 - [ReAngle](https://github.com/Tekholms-LW/ReAngle) - Re-shoot any video from a new camera angle with ComfyUI and LTX-2.5. ★ 4 · Apache-2.0
 - [TimeFlight](https://github.com/EmmanuelRiveros/TimeFlight) - Drone flights over real places that go back in time, from open geodata. ★ 4 · Apache-2.0
@@ -139,7 +141,7 @@ Re-shoot a clip from a new angle, plan camera moves in 3D, or check that a rende
 
 From a logline, a song or a document to a finished video.
 
-- [Picky](https://github.com/chenthedesignmaker/ComfyUI-Picky) - Render a shot ten ways and keep the one you love. ★ 28 · GPL-3.0 · [launch post](https://x.com/DesignMakerChen/status/2115981756948164708)
+- [Picky](https://github.com/chenthedesignmaker/ComfyUI-Picky) - Render a shot ten ways and keep the one you love. ★ 29 · GPL-3.0 · [launch post](https://x.com/DesignMakerChen/status/2115981756948164708)
 - [Mondo Music Video](https://github.com/hodgemann/mondo-music-video) - Music-video studio with an actor protocol and optional MCP tools. ★ 12 · Apache-2.0 · [launch post](https://x.com/mann_hodge/status/2115910199978709476)
 - [seriesmith](https://github.com/bgstratt/seriesmith) - A series config and markdown episode scripts in, finished episodes out: any shot on any model, on your own GPU or on Comfy's cloud. ★ 3 · MIT
 - [Oneliner](https://github.com/thaohienhomes/oneliner) - Type one line, get a cinematic trailer on Comfy Cloud, LTX and ffmpeg. ★ 2 · MIT
@@ -166,7 +168,7 @@ Product ads, UGC-style clips and personalized spots.
 
 Lock a character look, build LoRA datasets, keep identities consistent.
 
-- [comfyui-sameface](https://github.com/fixed-42/comfyui-sameface) - Custom node that measures where an image edit moved the parts of a face and moves them back, on open weights. ★ 7 · Apache-2.0
+- [comfyui-sameface](https://github.com/fixed-42/comfyui-sameface) - Custom node that measures where an image edit moved the parts of a face and moves them back, on open weights. ★ 8 · Apache-2.0
 - [Boson](https://github.com/0xMisterBailey/Boson) - Your taste as plain files in git that every next generation reads. ★ 1 · MIT
 - [Character Lock](https://github.com/ZhuEvgeny/Character-lock-comfy) - One reference image in, a locked character look out. ★ 1 · MIT · [launch post](https://x.com/xx0618/status/2116021940309672166)
 - [Dataset Forge](https://github.com/ToxicLizard99/Dataset-Forge) - One face in, a full character LoRA dataset out. ★ 1 · MIT
@@ -176,7 +178,7 @@ Lock a character look, build LoRA datasets, keep identities consistent.
 
 Node canvases, web UIs and helpers that put a friendlier face on ComfyUI.
 
-- [ComfyArt](https://github.com/jtydhr88/ComfyArt) - Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally. ★ 409 · MIT · [launch post](https://x.com/jtydhr88/status/2114927438518219073)
+- [ComfyArt](https://github.com/jtydhr88/ComfyArt) - Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally. ★ 411 · MIT · [launch post](https://x.com/jtydhr88/status/2114927438518219073)
 - [ComfyUI-Continuity](https://github.com/roadmaus/ComfyUI-Continuity) - One node for AI video and stills: write a prompt, attach media with @ and press Render; six model families, all local through ComfyUI core. ★ 139 · MIT
 - [Open Source Canvas](https://github.com/raph651/open-source-canvas) - Node canvas that runs ComfyUI workflows. ★ 106 · MIT · [launch post](https://x.com/RaphaelLiu10/status/2115913910075449637)
 - [KubaNodes](https://github.com/kubakubkub/ComfyUI_KubaNodes) - Visual toolset for pictures made of parts: projection mapping with regions, per-region diffusion, a director window, and video and 3D scene tools. ★ 10 · GPL-3.0
@@ -193,11 +195,11 @@ Node canvases, web UIs and helpers that put a friendlier face on ComfyUI.
 
 Older open-source Higgsfield alternatives on GitHub, most of them cloud front ends that need someone's API key.
 
-- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) - Formerly Open-Higgsfield-AI. The biggest web and desktop studio; cloud models through Muapi.ai. ★ 31,944 · MIT
-- [open-higgsfield](https://github.com/wide-trace/open-higgsfield) - Next.js web app with a hosted demo; needs a platform API key. ★ 5,155 · no license
-- [HeliosGen](https://github.com/SegFault42/HeliosGen) - Tauri desktop app with a Mac build; generations through kie.ai. ★ 3,221 · no license
-- [LTX Desktop](https://github.com/Lightricks/LTX-Desktop) - Lightricks' own desktop app for running LTX video models locally. ★ 2,196 · Apache-2.0
-- [BeatDesign](https://github.com/BeatAPI/BeatDesign) - Local web workspace on Node.js; generations through BeatAPI. ★ 288 · Apache-2.0
+- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) - Formerly Open-Higgsfield-AI. The biggest web and desktop studio; cloud models through Muapi.ai. ★ 31,970 · MIT
+- [open-higgsfield](https://github.com/wide-trace/open-higgsfield) - Next.js web app with a hosted demo; needs a platform API key. ★ 5,173 · no license
+- [HeliosGen](https://github.com/SegFault42/HeliosGen) - Tauri desktop app with a Mac build; generations through kie.ai. ★ 3,224 · no license
+- [LTX Desktop](https://github.com/Lightricks/LTX-Desktop) - Lightricks' own desktop app for running LTX video models locally. ★ 2,199 · Apache-2.0
+- [BeatDesign](https://github.com/BeatAPI/BeatDesign) - Local web workspace on Node.js; generations through BeatAPI. ★ 306 · Apache-2.0
 - [Kawarimi](https://github.com/jutsuhq/kawarimi-local-character-swap) - Local character swap for Windows and Linux on Wan 2.2 Animate through ComfyUI. Made by the maintainers of this list. ★ 2 · MIT
 
 ## Contributing
