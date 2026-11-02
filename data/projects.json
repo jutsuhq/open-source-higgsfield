@@ -664,6 +664,21 @@
       "archived": false
     },
     {
+      "repo": "rik-python/ComfyUI-Comfy-Pro-Alpha-Generator",
+      "name": "Comfy Pro Alpha Generator",
+      "category": "effects",
+      "summary": "One ComfyUI node for VFX roto: click a subject, get a production alpha matte with clean hair and motion-blur edges. SAM3 picks what to matte, LTX-2.5 generates the edge. Native 4K, EXR out.",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7521344537626312706/",
+      "url": "https://github.com/rik-python/ComfyUI-Comfy-Pro-Alpha-Generator",
+      "stars": 40,
+      "forks": 9,
+      "license": "GPL-3.0",
+      "created": "2026-10-09",
+      "pushed": "2026-10-27",
+      "homepage": "https://www.comfycompositing.com",
+      "archived": false
+    },
+    {
       "repo": "Kainotomic/one-take-vfx",
       "name": "One-take VFX",
       "category": "effects",
