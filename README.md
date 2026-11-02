@@ -2,7 +2,7 @@
 
 > Open-source Higgsfield AI alternatives on GitHub, starting with every notable project built for ComfyUI's #OpenSourceHiggsfield challenge: Genjutsu-style character swap, one-tap effects, camera re-shoots and full studios that run open-weights models on your own GPU or on Comfy Cloud.
 
-102 challenge projects and 6 older alternatives, with stars and licenses as of 2026-11-01. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
+103 challenge projects and 6 older alternatives, with stars and licenses as of 2026-11-01. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
 
 This is an unofficial community list. It is not affiliated with or endorsed by Higgsfield or Comfy.
 
@@ -29,12 +29,12 @@ Entries were found through the #OpenSourceHiggsfield tag on X and through GitHub
 | [agentY](https://github.com/szprivate/agentY) | AI agent inside ComfyUI: describe the result and it picks or builds the workflow, runs it and puts the output on your canvas; any LLM, fully local with Ollama, plus a built-in image, video and 3D viewer, Atlas worlds and Gaussian splats. | 46 | MIT |
 | [Body Double](https://github.com/lucataco/open-source-higgsfield) | Same take, new cast: swaps the actors in a clip with open-weights models only. | 45 | Apache-2.0 |
 | [CreatorOS Studio](https://github.com/thePloggy/CreatorOS-Studio) | Self-hosted studio for one recurring character, from a one-line brief to a finished reel: camera moves, effects, talking avatars, motion transfer and a video editor. | 45 | Apache-2.0 |
+| [Comfy Pro Alpha Generator](https://github.com/rik-python/ComfyUI-Comfy-Pro-Alpha-Generator) | One ComfyUI node for VFX roto: click a subject, get a production alpha matte with clean hair and motion-blur edges. SAM3 picks what to matte, LTX-2.5 generates the edge. Native 4K, EXR out. | 40 | GPL-3.0 |
 | [H3 Recast](https://github.com/Bambushu/h3-recast) | Swaps up to three people in an existing clip in one pass with MiniMax H3 and a BFS LoRA, keeping the motion, set and audio; optional FaceRefine lip pass, 16 GB VRAM and 64 GB RAM. | 37 | MIT |
 | [Picky](https://github.com/chenthedesignmaker/ComfyUI-Picky) | Render a shot ten ways and keep the one you love. | 29 | GPL-3.0 |
 | [Motion Previs Studio](https://github.com/navarisun1982/comfyui-motion-previs-studio) | 3D camera, character and motion previs, an open take on Higgsfield 3D. | 27 | MIT |
 | [OpenKatana](https://github.com/rk0neki/OpenKatana) | Agent-driven video editing with a studio UI, ComfyUI Apps, a CLI and an MCP server. | 20 | Apache-2.0 |
 | [Seam](https://github.com/jdnichollsc/seam) | Two shots in, one AI transition out: smoke, water and more. | 19 | MIT |
-| [Director's Cut](https://github.com/leonardofrito/Directors-Cut) | Local asset library and reference-to-video studio for ComfyUI. | 16 | MIT |
 
 ## Contents
 
@@ -103,6 +103,7 @@ Higgsfield-style apps with many tools behind one screen: effects, camera moves, 
 
 One-tap viral effects and plate-preserving VFX, the open version of Higgsfield presets.
 
+- [Comfy Pro Alpha Generator](https://github.com/rik-python/ComfyUI-Comfy-Pro-Alpha-Generator) - One ComfyUI node for VFX roto: click a subject, get a production alpha matte with clean hair and motion-blur edges. SAM3 picks what to matte, LTX-2.5 generates the edge. Native 4K, EXR out. ★ 40 · GPL-3.0 · [launch post](https://www.linkedin.com/feed/update/urn:li:activity:7521344537626312706/)
 - [Seam](https://github.com/jdnichollsc/seam) - Two shots in, one AI transition out: smoke, water and more. ★ 19 · MIT · [launch post](https://x.com/jdnichollsc/status/2116019265275150774)
 - [SpEdE](https://github.com/Burgstall-labs/ComfyUI-SpEdE) - Click an object in a Gaussian splat, then remove, replace or restyle it. ★ 15 · AGPL-3.0 · [launch post](https://x.com/TheBurgstall/status/2115895644426834025)
 - [Element Forge](https://github.com/Zitroffi/comfyui-element-forge) - AI VFX elements for your own footage: LTX-2.5 generates fire, lightning, smoke or particles, then Element Forge tracks, lights and layers them into the shot so they stay editable. ★ 8 · MIT · [launch post](https://www.reddit.com/r/comfyui/comments/1xjj8t8/element_forge_editable_ai_vfx_for_real_footage/)
