@@ -286,13 +286,6 @@
       "post": null
     },
     {
-      "repo": "E5EnclaveInc/liberty-cut",
-      "name": "Liberty Cut",
-      "category": "studios",
-      "summary": "Cinematic studio built only on open weights (LTX-Video).",
-      "post": null
-    },
-    {
       "repo": "stellartune-studio/vision-orchestrator",
       "name": "Vision Orchestrator",
       "category": "studios",
@@ -381,7 +374,8 @@
       "name": "SpEdE",
       "category": "effects",
       "summary": "Click an object in a Gaussian splat, then remove, replace or restyle it.",
-      "post": "https://x.com/TheBurgstall/status/2115895644426834025"
+      "post": "https://x.com/TheBurgstall/status/2115895644426834025",
+      "award": "Honorable mention"
     },
     {
       "repo": "okkazoo/MOTNGRFX",
@@ -608,13 +602,6 @@
       "post": "https://x.com/indefatigabile/status/2116060732353863810"
     },
     {
-      "repo": "kingofmit/ComfyUI-HiggsOpen",
-      "name": "HiggsOpen",
-      "category": "ads",
-      "summary": "Rebuild of Higgsfield Diffuse: a topic in, a viral short video out.",
-      "post": null
-    },
-    {
       "repo": "vidyabharadwaj03/reelmatch",
       "name": "Reelmatch",
       "category": "ads",
@@ -668,7 +655,8 @@
       "name": "ComfyArt",
       "category": "canvas",
       "summary": "Free design canvas on your own ComfyUI: an infinite tldraw canvas with a design agent; image, video, audio and 3D run locally.",
-      "post": "https://x.com/jtydhr88/status/2114927438518219073"
+      "post": "https://x.com/jtydhr88/status/2114927438518219073",
+      "award": "Built with FLUX bonus ($1,000 in credits)"
     },
     {
       "repo": "raph651/open-source-canvas",
@@ -802,6 +790,118 @@
       "category": "studios",
       "summary": "Local studio on ComfyUI spanning 82 open model families: guided forms, recipes and a crew of AI specialists, with the real graph behind every render shown in 3D.",
       "post": "https://www.reddit.com/r/comfyui/comments/1xjg4vk/parametric_studio_every_open_model_one_studio/"
+    },
+    {
+      "repo": "nomadoor/ComfyUI-Panorama-Stickers",
+      "name": "ComfyUI Panorama Stickers",
+      "category": "camera",
+      "summary": "Place images, videos and 3D in a 360° panorama, shoot it from any viewpoint with keyframed cameras, fix the shot with an image model and put it back.",
+      "post": null,
+      "award": "Best Overall ($10,000)"
+    },
+    {
+      "repo": "Hcoder10/blocksfield",
+      "name": "Blocksfield",
+      "category": "studios",
+      "summary": "Open-source Higgsfield Games: type a pitch, get a playable three.js browser game or a Roblox place; local open-weights models code it and ComfyUI makes the art, music and sound on one RTX 5090.",
+      "post": null,
+      "award": "Most Innovative"
+    },
+    {
+      "repo": "drowzeys/Imagination-Studio-by-keys-Wasserman",
+      "name": "Imagination Studio",
+      "category": "film",
+      "summary": "Local film studio for Windows, Mac and NVIDIA Linux: plan a film like a crew, generate pictures, video with sound, voices and music, then edit and export.",
+      "post": null,
+      "award": "Most Viral"
+    },
+    {
+      "repo": "AInVFX/ainvfx-paintaplate",
+      "name": "Paint a Plate",
+      "category": "effects",
+      "summary": "Paint on the first frame of a VFX plate to erase, add or relight, and the edit carries through the shot; paint smoke and fire on a blank plate. Exports in the plate's own format, open weights only.",
+      "post": null,
+      "award": "Open Weights Only; VFX Workflow Built with LTX bonus"
+    },
+    {
+      "repo": "rhymeas/Creativefield",
+      "name": "CreativeField",
+      "category": "studios",
+      "summary": "Creative studio on ComfyUI: keyframe animation, grey-block scenes made real, character swap, video with sound, pictures, 3D and an AI photo editor. Local or on your Comfy credits.",
+      "post": null,
+      "award": "Built with FLUX bonus ($500 in credits)"
+    },
+    {
+      "repo": "koshimazaki/genobi",
+      "name": "Genobi",
+      "category": "studios",
+      "summary": "Voice-first video studio you direct by talking or through your own agent: scene building, sound, generation and editing in one project, local or cloud models.",
+      "post": null,
+      "award": "Built with FLUX bonus ($250 in credits); Honorable mention"
+    },
+    {
+      "repo": "PxTicks/h3-motion",
+      "name": "H3 Motion",
+      "category": "effects",
+      "summary": "Lift a subject out of a photo and drag it along a path into motion, or mask part of a video and change what happens inside; MiniMax H3 animates it with sound, open weights only.",
+      "post": null,
+      "award": "Built with MiniMax H3 bonus ($1,000 in credits); Honorable mention"
+    },
+    {
+      "repo": "itsmetamike/reshoot-4d",
+      "name": "Reshoot 4D",
+      "category": "camera",
+      "summary": "Reshoot any video in 4D: capture the person and scene, set a new camera path in a 4D editor inside ComfyUI, and LTX re-renders the shot. Local, open weights.",
+      "post": null,
+      "award": "Honorable mention"
+    },
+    {
+      "repo": "VisualFrisson/ComfyUI-OneShotMV",
+      "name": "OneShot MV",
+      "category": "film",
+      "summary": "A song and one line about its world in, a lip-synced music video out: it invents the cast, plans the cut by the song's energy and renders every shot locally.",
+      "post": null,
+      "award": "Honorable mention"
+    },
+    {
+      "repo": "neuregex/freefield",
+      "name": "Freefield",
+      "category": "studios",
+      "summary": "Higgsfield-style studio of image, video, VFX and audio apps, each one a ComfyUI workflow on open weights in its own folder; runs on Modal or your own GPU.",
+      "post": null,
+      "award": "Honorable mention"
+    },
+    {
+      "repo": "SonderSaid/ComfyUI-Sonder-Editor",
+      "name": "Sonder Editor",
+      "category": "canvas",
+      "summary": "Timeline video editor for ComfyUI: arrange scenes, prompts, keyframes and references, generate any range with your own workflow and compare takes.",
+      "post": null,
+      "award": "Honorable mention"
+    },
+    {
+      "repo": "xentome/EDITS-WITH-AI",
+      "name": "MAX EDITOR",
+      "category": "film",
+      "summary": "Music-video edits made shot by shot with MiniMax H3 on your own PC (tested on a 12 GB RTX 3060), with an MCP agent that marks every change it makes.",
+      "post": null,
+      "award": "Honorable mention"
+    },
+    {
+      "repo": "alisson-anjos/Henge",
+      "name": "Henge",
+      "category": "character-swap",
+      "summary": "Video studio on ComfyUI and MiniMax H3: character swap, motion transfer, head swap and sharpening from one guide video and a few pictures, locally or on RunPod.",
+      "post": null,
+      "award": "Honorable mention"
+    },
+    {
+      "repo": "Nebuluss/H3-AudioRetake-studio",
+      "name": "H3 Audio Retake Studio",
+      "category": "canvas",
+      "summary": "Audio and lip-sync retake studio: select a passage on the waveform, make or import new speech, repair the mouth with MiniMax H3 and export the full video.",
+      "post": null,
+      "award": "Honorable mention"
     }
   ]
 }

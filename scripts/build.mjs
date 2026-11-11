@@ -40,10 +40,14 @@ writeFileSync(new URL('data/projects.json', root), JSON.stringify({ updated: tod
 const byStars = (a, b) => b.stars - a.stars || a.name.localeCompare(b.name);
 const challenge = enriched.filter((p) => p.category !== 'beyond');
 const anchor = (title) => title.toLowerCase().replace(/[^a-z0-9 -]/g, '').replace(/ /g, '-');
-const meta = (p) => [`★ ${p.stars.toLocaleString('en-US')}`, p.license ?? 'no license', p.post && `[launch post](${p.post})`].filter(Boolean).join(' · ');
+const meta = (p) => [p.award && `🏆 ${p.award}`, `★ ${p.stars.toLocaleString('en-US')}`, p.license ?? 'no license', p.post && `[launch post](${p.post})`].filter(Boolean).join(' · ');
 const line = (p) => `- [${p.name}](${p.url}) - ${p.summary} ${meta(p)}`;
 
 const top = [...challenge].sort(byStars).slice(0, 15);
+// Prize tiers in the order Comfy's winners page lists them; a project's first prize decides its place.
+const tiers = ['Best Overall', 'Most Innovative', 'Most Viral', 'Open Weights Only', 'Built with FLUX', 'Built with MiniMax H3', 'Honorable mention'];
+const tier = (p) => tiers.findIndex((t) => p.award.startsWith(t));
+const winners = enriched.filter((p) => p.award).sort((a, b) => tier(a) - tier(b) || byStars(a, b));
 const sections = categories.map((c) => {
   const items = enriched.filter((p) => p.category === c.id).sort(byStars);
   return `## ${c.title}\n\n${c.intro}\n\n${items.map(line).join('\n')}`;
@@ -64,8 +68,17 @@ This is an unofficial community list. It is not affiliated with or endorsed by H
 - **October 28.** Builder Night in San Francisco.
 - **October 29.** ComfyUI [said](https://x.com/ComfyUI/status/2115928993623109648) Higgsfield had sent it a cease and desist asking it to shut the challenge down.
 - **October 30.** Submission deadline.
+- **November 10.** Comfy [announced the winners](https://comfy.org/open-source-higgsfield/). Best Overall and $10,000 went to [ComfyUI Panorama Stickers](https://github.com/nomadoor/ComfyUI-Panorama-Stickers). See [Winners](#winners).
 
 Entries were found through the #OpenSourceHiggsfield tag on X and through GitHub search. Empty repositories, clones of other entries and private placeholders are left out.
+
+## Winners
+
+Prizes as listed on [Comfy's winners page](https://comfy.org/open-source-higgsfield/), November 10, 2026. The category winners each got a GeForce RTX 5090; the ten honorable mentions got $250 in Comfy Credits each.
+
+| Project | Prize | What it does | Stars |
+| --- | --- | --- | --- |
+${winners.map((p) => `| [${p.name}](${p.url}) | ${p.award} | ${p.summary} | ${p.stars.toLocaleString('en-US')} |`).join('\n')}
 
 ## Most starred
 
@@ -75,6 +88,7 @@ ${top.map((p) => `| [${p.name}](${p.url}) | ${p.summary} | ${p.stars.toLocaleStr
 
 ## Contents
 
+- [Winners](#winners)
 ${categories.map((c) => `- [${c.title}](#${anchor(c.title)})`).join('\n')}
 - [Contributing](#contributing)
 
