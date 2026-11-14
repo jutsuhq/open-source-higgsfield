@@ -764,6 +764,13 @@
       "post": null
     },
     {
+      "repo": "jutsuhq/higgsfield-desktop",
+      "name": "Jutsu Studio for Windows and Linux",
+      "category": "beyond",
+      "summary": "Higgsfield desktop app for Windows and Linux on Tauri: Seedance, Kling, Genjutsu and the other models with your own account or API key, a queue that runs in the background and a library on your disk. Made by the maintainers of this list.",
+      "post": null
+    },
+    {
       "repo": "jutsuhq/kawarimi-local-character-swap",
       "name": "Kawarimi",
       "category": "beyond",

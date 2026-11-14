@@ -126,7 +126,7 @@ Missing a project? Open a pull request that adds it to [projects.json](projects.
 
 See also [Awesome Higgsfield](https://github.com/jutsuhq/awesome-higgsfield) for SDKs, MCP servers and agent skills built on Higgsfield itself.
 
-Maintained by [Jutsu Studio](https://jutsustudio.com/), the open-source Higgsfield desktop app for Mac ([GitHub](https://github.com/jutsuhq/jutsu-studio)).
+Maintained by [Jutsu Studio](https://jutsustudio.com/), the open-source Higgsfield desktop app for Mac ([GitHub](https://github.com/jutsuhq/jutsu-studio)) and for [Windows and Linux](https://github.com/jutsuhq/higgsfield-desktop).
 
 ## License
 
