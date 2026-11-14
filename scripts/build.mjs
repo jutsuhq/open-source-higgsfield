@@ -53,13 +53,39 @@ const sections = categories.map((c) => {
   return `## ${c.title}\n\n${c.intro}\n\n${items.map(line).join('\n')}`;
 });
 
+const licenses = Object.entries(
+  enriched.reduce((n, p) => ({ ...n, [p.license ?? 'none']: (n[p.license ?? 'none'] ?? 0) + 1 }), {}),
+).sort((a, b) => b[1] - a[1] || (a[0] === 'none') - (b[0] === 'none'));
+const byCategory = categories.map((c) => {
+  const items = enriched.filter((p) => p.category === c.id).sort(byStars);
+  return { ...c, count: items.length, best: items[0] };
+});
+
 const readme = `# Open Source Higgsfield [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Open-source Higgsfield AI alternatives on GitHub, starting with every notable project built for ComfyUI's #OpenSourceHiggsfield challenge: Genjutsu-style character swap, one-tap effects, camera re-shoots and full studios that run open-weights models on your own GPU or on Comfy Cloud.
-
-${challenge.length} challenge projects and ${enriched.length - challenge.length} older alternatives, with stars and licenses as of ${today}. Browse the same list by category at [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/).
+There are ${enriched.length} open-source Higgsfield AI alternatives in this list: ${challenge.length} GitHub projects from ComfyUI's #OpenSourceHiggsfield challenge (October 2026), ${winners.length} of them prize winners, and ${enriched.length - challenge.length} older ones. They cover character swap, effects, camera re-shoots, films and full studios.
 
 This is an unofficial community list. It is not affiliated with or endorsed by Higgsfield or Comfy.
+
+## At a glance
+
+| | |
+| --- | --- |
+| Projects | ${enriched.length}: ${challenge.length} from the challenge, ${enriched.length - challenge.length} older |
+| Prize winners | ${winners.length}, Best Overall: ${winners[0] ? `[${winners[0].name}](${winners[0].url})` : 'none'} ([Winners](#winners)) |
+| Most starred challenge project | ${top[0] ? `[${top[0].name}](${top[0].url}), ★ ${top[0].stars.toLocaleString('en-US')}` : 'none'} |
+| Licenses | ${licenses.map(([l, n]) => `${l} ${n}`).join(', ')} |
+| Stars and licenses as of | ${today} |
+| Machine-readable data | [data/projects.json](data/projects.json) |
+| Rebuild | \`node scripts/build.mjs\` |
+| List license | CC0 1.0 |
+| Website | [jutsustudio.com/open-source-higgsfield](https://jutsustudio.com/open-source-higgsfield/), the same list by category |
+
+## By category
+
+| Category | Projects | Most starred |
+| --- | --- | --- |
+${byCategory.map((c) => `| [${c.title}](#${anchor(c.title)}) | ${c.count} | ${c.best ? `[${c.best.name}](${c.best.url}), ★ ${c.best.stars.toLocaleString('en-US')}` : 'none'} |`).join('\n')}
 
 ## The challenge
 
