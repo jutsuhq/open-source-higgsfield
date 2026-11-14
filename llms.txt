@@ -1,0 +1,20 @@
+# Open Source Higgsfield
+
+> An unofficial community list of 114 open-source alternatives to Higgsfield built for ComfyUI's #OpenSourceHiggsfield challenge, covering character swap, effects, studios, and camera tools with stars and licenses.
+
+It is a curated catalog of ComfyUI-based projects that run open-weights models locally or on Comfy Cloud, organized by category such as character swap (Openjutsu), all-in-one studios, VFX, camera and reshoot, and more. Entries list star counts and licenses as of 2026-11-11, and winners of the challenge's $25,000 prize pool are highlighted. The same list is browsable by category at jutsustudio.com/open-source-higgsfield.
+
+## Docs
+
+- [Open Source Higgsfield](https://raw.githubusercontent.com/jutsuhq/open-source-higgsfield/main/README.md): Community list of 114 challenge projects and 6 older alternatives, with stars and licenses, plus the challenge timeline.
+- [The challenge](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#the-challenge): Timeline of the challenge: announcement, $25,000 prizes, OPENjutsu release, cease and desist, deadline and winners.
+- [Winners](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#winners): Prizes as listed on Comfy's winners page, November 10, 2026: RTX 5090s for category winners, credits for mentions.
+- [Character swap (Openjutsu)](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#character-swap-openjutsu): Open-source takes on Genjutsu: replacing the person in a video with a character from one image, with listed projects.
+- [All-in-one studios](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#all-in-one-studios): Higgsfield-style all-in-one studio apps covering effects, camera moves, characters and editing, with stars and licenses.
+- [Effects and VFX](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#effects-and-vfx): One-tap viral effects and plate-preserving VFX projects, the open version of Higgsfield presets, with stars and licenses.
+- [Camera, reshoot and previs](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#camera-reshoot-and-previs): Projects to re-shoot a clip from a new angle, plan camera moves in 3D, or verify a render followed the move.
+- [Films, music videos and stories](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#films-music-videos-and-stories): Projects turning a logline, a song or a document into a finished video, from film studios to music-video makers.
+- [Ads and UGC](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#ads-and-ugc): Projects for product ads, UGC-style clips and personalized spots, including compliance-checked product shots.
+- [Characters and datasets](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#characters-and-datasets): Projects to lock a character look, build LoRA datasets, and keep identities consistent across generations.
+- [Canvases, front ends and tools](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#canvases-front-ends-and-tools): Node canvases, web UIs, timeline editors and helper nodes that put a friendlier face on ComfyUI.
+- [Beyond the challenge](https://github.com/jutsuhq/open-source-higgsfield/blob/main/README.md#beyond-the-challenge): Older open-source Higgsfield alternatives, mostly cloud front ends that need someone's API key.
