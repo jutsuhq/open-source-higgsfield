@@ -4,6 +4,20 @@ There are 120 open-source Higgsfield AI alternatives in this list: 113 GitHub pr
 
 This is an unofficial community list. It is not affiliated with or endorsed by Higgsfield or Comfy.
 
+## From the maintainers
+
+Open-source tools by [Jutsu Studio](https://jutsustudio.com/) for Higgsfield and AI video, by task:
+
+- **Higgsfield desktop app for Mac:** [Jutsu Studio](https://github.com/jutsuhq/jutsu-studio), a native macOS app and AI video generator for 14 Higgsfield models, with a bundled MCP server for Claude Code.
+- **Higgsfield desktop app for Windows and Linux:** [Jutsu Studio for Windows and Linux](https://github.com/jutsuhq/higgsfield-desktop).
+- **Higgsfield app for iPhone and iPad:** [Jutsu for iPhone](https://github.com/jutsuhq/jutsu-studio-ios).
+- **MCP server for AI video generation:** [AI Media Router](https://github.com/jutsuhq/ai-media-router), Seedance, Kling, Veo, Wan and FLUX across 40+ providers with your own keys.
+- **Higgsfield API tools:** [Higgsfield Gateway](https://github.com/jutsuhq/higgsfield-gateway), a Cloudflare Workers gateway with spending caps, signed webhooks and a typed client.
+- **Claude Code skill for Seedance 2.5 prompts:** [Higgsfield Seedance Prompt Skill](https://github.com/jutsuhq/higgsfield-seedance-prompt-skill).
+- **Character swap:** [Swapjutsu](https://github.com/jutsuhq/swapjutsu-seedance-character-swap) on a Mac, [Kawarimi](https://github.com/jutsuhq/kawarimi-local-character-swap) locally on an NVIDIA GPU (Windows and Linux).
+- **Faceless short videos on a Mac:** [Content Factory](https://github.com/jutsuhq/content-factory).
+- **AI video and image API prices:** [ai-media-api-prices](https://github.com/jutsuhq/ai-media-api-prices), updated daily.
+
 ## At a glance
 
 | | |
